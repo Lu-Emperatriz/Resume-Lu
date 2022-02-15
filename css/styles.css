@@ -3834,6 +3834,22 @@ textarea.form-control-lg {
   display: block;
 }
 
+.hvr-grow {
+  position:relative;
+  top:5%;
+  left:5%;
+  display:inline-block;
+  -webkit-transform:translateZ(0);
+  transform:scale(1) translateZ(0) translateX(-5%) translateY(5%);
+  font-size:20px;
+  -webkit-transition:transform 50ms;
+  transition:transform .2s;
+  margin: 0 auto;
+}
+
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  transform:scale(1)
+
 .dropdown-header {
   display: block;
   padding: 0.5rem 1rem;
