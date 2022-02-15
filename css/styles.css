@@ -3879,23 +3879,6 @@ textarea.form-control-lg {
   color: #adb5bd;
 }
 
-.hvr-grow {
-  position:relative;
-  top:5%;
-  left:5%;
-    display:inline-block;
-  -webkit-transform:translateZ(0);
-  transform:scale(1) translateZ(0) translateX(-5%) translateY(5%);
-  font-size:20px;
-  -webkit-transition:transform 50ms;
-  transition:transform .2s;
-  margin: 0 auto;
-}
-
-.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-  transform:scale(1)
-
-  
 .btn-group,
 .btn-group-vertical {
   position: relative;
